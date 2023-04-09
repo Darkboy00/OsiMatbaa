@@ -26,7 +26,7 @@
         ul
         {
             float: center;
-            font-size: 4vw;
+            font-size: 3vw;
         }
         ul li
         {
@@ -57,6 +57,36 @@
         {
             border-radius: 8px;
         }
+        *
+        {
+            box-sizing: border-box;
+        }
+        .column
+        {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        .row::after
+        {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        video
+        {
+            float: center;
+        }
+        p
+        {
+            font-size: 3vw;
+            float: center;
+        }
+        .p1
+        {
+            font-size: 3.5vw;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -69,7 +99,7 @@
             <img src="Profile1.jpg" alt="Profile" class="img1">
         </div><br>
         <h2>Biz Kimiz?</h2>
-        <p style="font-size: 5vw; text-align: left;">Osi Matbaa hizmetlerinin kurucusu Osman Bektaş.Firmamızda verdiğimiz hizmetler:</p>
+        <p class="p1">Osi Matbaa hizmetlerinin kurucusu Osman Bektaş.<br>Firmamızda verdiğimiz hizmetler:</p>
         <ul>
             <li>Kuşgözü</li>
             <li>Broşür Katlama</li>
@@ -90,14 +120,48 @@
         </ul>
         <h2>Çalışmalarım</h2>
         <center>
-            <video src="work1.mp4" width="200vw" autoplay muted loop></video>
-            <video src="work2.mp4" width="200vw" autoplay muted loop></video>
-            <video src="work3.mp4" width="200vw" autoplay muted loop></video>
-            <img src="work4.jpg" alt="work4" class="img-thumbnail" style="width: 50vw;">
-            <img src="work5.jpg" alt="work5" class="img2" style="width: 50vw;">
-            <img src="work6.jpg" alt="work6" class="img2" style="width: 50vw;">
-            <img src="work7.jpg" alt="work7" class="img2" style="width: 50vw;"><br><br>
+            <video src="work1.mp4" width="300vw" autoplay muted loop></video><br>
+            <video src="work2.mp4" width="300vw" autoplay muted loop></video><br>
+            <video src="work3.mp4" width="300vw" autoplay muted loop></video><br>
         </center>
+        <div class="row">
+            <div class="column">
+                <img src="work13.jpg" alt="work13" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work5.jpg" alt="work5" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work6.jpg" alt="work6" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work14.jpg" alt="work13" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work8.jpg" alt="work8" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work9.jpg" alt="work9" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work16.jpg" alt="work16" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work15.jpg" alt="work15" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work12.jpg" alt="work12" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work18.jpg" alt="work18" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work19.jpg" alt="work19" style="width: 100%;">
+            </div>
+            <div class="column">
+                <img src="work20.jpg" alt="work20" style="width: 100%;">
+            </div>
+        </div>
         <footer class="container-fluid bg-4 text-center">
             <p>Telefon: 0(541) 878 83 07</p>
             <p>Adres: 2.Matbaacılar Sitesi 1NA30(karşısı) Topkapı/İSTANBUL</p>
