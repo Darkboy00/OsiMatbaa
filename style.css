@@ -28,6 +28,7 @@ h2
     background-color: orange;
     /* Orange */
     color: white;
+    border-radius: 8px;
 }
 .img2 
 {
@@ -52,6 +53,7 @@ h2
 video 
 {
     float: center;
+    border-radius: 8px;
 }
 p 
 {
