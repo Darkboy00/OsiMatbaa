@@ -1,0 +1,64 @@
+.header 
+{
+    padding: 1px;
+    text-align: center;
+    background: orange;
+    color: white;
+}
+.img1 
+{
+    float: center;
+    width: 50%;
+    border-radius: 50%;
+    border: 3.5px orange dashed;
+}
+ul 
+{
+    float: center;
+    font-size: 3vw;
+}
+ul li 
+{
+    text-align: left;
+}
+h2 
+{
+    text-align: center;
+    font-weight: 700;
+    background-color: orange;
+    /* Orange */
+    color: white;
+}
+.img2 
+{
+    border-radius: 8px;
+}
+.bg-4 
+{
+    background-color: orangered;
+    color: white;
+}
+.column 
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after 
+{
+    clear: both;
+    display: table;
+}
+video 
+{
+    float: center;
+}
+p 
+{
+    font-size: 23px;
+}
+.p1 
+{
+    font-size: 3.5vw;
+    text-align: left;
+}
