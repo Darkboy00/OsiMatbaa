@@ -29,6 +29,7 @@ ul li
 h1
 {
     font-size: 10vw;
+    text-shadow: 2px 2px 2px orangered;
 }
 h2 
 {
@@ -38,6 +39,7 @@ h2
     /* Orange */
     color: white;
     border-radius: 8px;
+    text-shadow: 2px 2px 2px orangered;
 }
 p 
 {
@@ -51,10 +53,11 @@ p
 .p2
 {
     text-align: center; 
-    font-size: 3vw; 
+    font-size: 3.2vw; 
     font-weight: bold;
-    color: whitesmoke;
+    color: lightslategray;
     margin-top: 10px;
+    text-shadow: 2px 2px 2px white;
 }
 .bg-1
 {
@@ -62,7 +65,7 @@ p
 }
 .bg-2
 {
-    background-color: #FFF5EE;
+    background-color: #FAD5A5;
 }
 .bg-3
 {
