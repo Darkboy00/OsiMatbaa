@@ -11,25 +11,30 @@
     width: 50%;
     border-radius: 50%;
     border: 3.5px orange dashed;
+    animation: profile 2s alternate infinite;
     margin-top: 10px;
 }
 .img2 
 {
     border-radius: 8px;
+    border: 3.5px orange solid;
 }
 ul 
 {
     float: center;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 ul li 
 {
     text-align: left;
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1
 {
     font-size: 10vw;
     text-shadow: 2px 2px 2px orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 
 {
@@ -40,24 +45,30 @@ h2
     color: white;
     border-radius: 8px;
     text-shadow: 2px 2px 2px orangered;
-}
-p 
-{
-    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .p1 
 {
     font-size: 3.5vw;
     text-align: left;
+    text-shadow: 2px 2px 2px white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .p2
 {
     text-align: center; 
-    font-size: 3.2vw; 
+    font-size: 3.5vw; 
     font-weight: bold;
     color: lightslategray;
     margin-top: 10px;
     text-shadow: 2px 2px 2px white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p3
+{
+    font-size: 4vw; 
+    text-shadow: 2px 2px 2px lightslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .bg-1
 {
@@ -91,4 +102,12 @@ video
 {
     float: center;
     border-radius: 8px;
+    border: 3.5px orange solid;
+}
+@keyframes profile 
+{
+    0%   {box-shadow: 0px 0px 15px #D27D2D;}
+    25%  {box-shadow: 0px 0px 25px #B87333;}
+    50%  {box-shadow: 0px 0px 35px #FF7F50;}
+    100% {box-shadow: 0px 0px 45px #F28C28;}
 }
