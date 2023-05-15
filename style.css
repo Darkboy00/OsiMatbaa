@@ -14,6 +14,13 @@
     animation: profile 2s alternate infinite;
     margin-top: 10px;
 }
+.img1:hover
+{
+    animation-name: profile;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
 .img2 
 {
     border-radius: 8px;
@@ -47,7 +54,7 @@ h1
     font-size: 10vw;
     text-shadow: 2px 2px 2px orangered;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    animation-name: glow, reveal;
+    animation-name: glow, reveal, ghost;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: linear;
@@ -61,6 +68,10 @@ h2
     border-radius: 8px;
     text-shadow: 2px 2px 2px orangered;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: glow2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 .p1 
 {
@@ -161,5 +172,12 @@ video
     80%
     {
       letter-spacing: 5px;
+    }
+}
+@keyframes glow2
+{
+    50% 
+    {
+        text-shadow: 0 0 8px orangered;
     }
 }
