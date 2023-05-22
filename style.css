@@ -42,12 +42,17 @@ ul
 {
     float: center;
     font-size: 3.5vw;
+    animation-name: reveal1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
 }
 ul li 
 {
     text-align: left;
     text-shadow: 2px 2px 2px white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
 }
 h1
 {
@@ -172,6 +177,13 @@ video
     80%
     {
       letter-spacing: 5px;
+    }
+}
+@keyframes reveal1 
+{
+    80%
+    {
+      letter-spacing: 2px;
     }
 }
 @keyframes glow2
