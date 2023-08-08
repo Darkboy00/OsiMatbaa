@@ -12,6 +12,7 @@
     border-radius: 50%;
     border: 3.5px orange dashed;
     animation: profile 2s alternate infinite;
+    animation: slideIn 0.8s alternate 0s;
     margin-top: 10px;
 }
 .img1:hover
@@ -206,5 +207,16 @@ video
     100%
     {
         color: white;
+    }
+}
+@keyframes slideIn 
+{
+    0% 
+    {
+      transform: translateX(500px) scale(.2);
+    }
+    100% 
+    {
+      transform: translateX(0px) scale(1);
     }
 }
